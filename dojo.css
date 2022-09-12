@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar {
+    width: 1330px;
+    background-color: #404040;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 2;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu a {
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-right: 15px;
+}
+#profile1 {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+#profile2 {
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    background-color: rgb(3, 164, 192);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.row {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    margin: 15px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.col {
+    background-color: rgb(136, 78, 190);
+    color: whitesmoke;
+    margin: 5px;
+    padding: 65px;
+    flex: 1;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-2 {
+    background-color: rgb(136, 78, 190);
+    color: whitesmoke;
+    margin: 5px;
+    padding: 65px;
+    flex: 2;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-3 {
+    background-color: rgb(136, 78, 190);
+    color: whitesmoke;
+    margin: 5px;
+    padding: 65px;
+    flex: 3;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    border: 3px solid lightgray;
+    width: 430px;
+    margin-top: 30px;
+}
+.card-header {
+    height: 80px;
+    background-color: rgb(3, 164, 192)
+}
+.card-body {
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.imagen-usuario {
+    width: 70px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+.icono1 {
+    width: 10px;
+    margin-right: 5px;
+}
+.requests {
+    border: 3px solid lightgray;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+.requests-header {
+    height: 50px;
+    background-color: rgb(85, 87, 87);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.request-number {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+h4 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.request-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.imagenYnombre {
+    display: flex;
+    flex-direction: row;
+}
+.iconos {
+    display: flex;
+    flex-direction: row;
+}
+.foto-usuario {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icono2 {
+    width: 40px;
+    margin-right: 5px;
+}
+.background {
+    display: inline-block;
+}
+.search {
+    background-color: rgb(248, 240, 240);
+    color: rgb(2, 170, 170);
+    border: 2px solid rgb(2, 170, 170);
+    border-radius: 20px;
+    width: 140px;
+    height: 25px;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.plus {
+    background-color: rgb(3, 214, 186);
+    color: white;
+    border-radius: 30px;
+    width: 40px;
+    height: 37px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.account {
+    background-color: rgb(73, 130, 216);
+    color: white;
+    border: 2px solid black;
+    width: 180px;
+    height: 30px;
+    font-family: monospace;
+    text-align: center;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 4px;
+    margin-left: 70px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px 1px black;
+}
